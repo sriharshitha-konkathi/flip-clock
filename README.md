@@ -8,7 +8,7 @@ A desktop flip clock with a browser preview and a Windows screensaver companion.
 
 Ready to use Still on your Windows PC? Download the latest installer directly:
 
-👉 **[Download Still Flip Clock Setup (.exe)](https://github.com/sriharshitha-konkathi/flip-clock/releases/download/v1.0.0/Still-1.0.0-setup.exe)**  
+👉 **[Download Still Flip Clock Setup (.exe)](https://github.com/sriharshitha-konkathi/flip-clock/releases/download/v1.0.1/Still-1.0.1-setup.exe)**  
 📦 **[View All Releases on GitHub](https://github.com/sriharshitha-konkathi/flip-clock/releases)**
 
 > ℹ️ **Windows Installation Note**:  
