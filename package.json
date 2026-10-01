@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A quieter kind of clock. A beautiful Windows flip clock and screensaver.",
+  "license": "MIT",
   "author": "sriharshitha-konkathi <sriharshithakonkathi@gmail.com>",
   "main": "electron/main.cjs",
   "type": "module",
