@@ -11,6 +11,10 @@ Ready to use Still on your Windows PC? Download the latest installer directly:
 👉 **[Download Still Flip Clock Setup (.exe)](https://github.com/sriharshitha-konkathi/flip-clock/releases/download/v1.0.0/Still-1.0.0-setup.exe)**  
 📦 **[View All Releases on GitHub](https://github.com/sriharshitha-konkathi/flip-clock/releases)**
 
+> ℹ️ **Windows Installation Note**:  
+> As a free open-source software release without a commercial paid certificate, Windows Defender SmartScreen may display a *"Windows protected your PC (Unverified Publisher)"* blue popup.  
+> To install: Click **"More info"** and then select **"Run anyway"**.
+
 ---
 
 ## Features
