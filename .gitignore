@@ -1,0 +1,48 @@
+# Installed dependencies and generated application output
+node_modules/
+/dist/
+/release/
+/build/
+*.tsbuildinfo
+
+# Test reports, coverage, caches, and temporary inspection output
+/coverage/
+/playwright-report/
+/playwright/.cache/
+/test-results/
+/.cache/
+/.vite/
+/.tmp*/
+/tmp/
+*.log
+npm-debug.log*
+
+# Local environment settings; deliberately authored examples may be committed
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Private signing material and keys (never commit real credentials)
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local agent state and design-reference samples, not application source
+/__agent__/
+/.omnirush/
+/assets/external-samples/
+
+# Editor and OS-specific files
+/.vscode/
+/.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,29 @@
+appId: com.still.clock
+productName: Still
+executableName: Still
+asar: true
+compression: maximum
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+  - '!src/**/*'
+  - '!public/**/*'
+  - '!scripts/**/*'
+  - '!windows/**/*'
+  - '!*.config.*'
+extraFiles:
+  - from: build/Still.scr
+    to: Still.scr
+directories:
+  output: release
+win:
+  target:
+    - nsis
+  artifactName: Still-${version}-setup.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Still

@@ -1,0 +1,37 @@
+{
+  "name": "still-flip-clock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A quieter kind of clock. A beautiful Windows flip clock and screensaver.",
+  "author": "sriharshitha-konkathi <sriharshithakonkathi@gmail.com>",
+  "main": "electron/main.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc -b",
+    "test": "node scripts/test-desktop.cjs && vitest run --passWithNoTests",
+    "test:e2e": "playwright test",
+    "desktop": "node scripts/dev-desktop.cjs",
+    "windows:pack": "npm run build && node scripts/build-screensaver.cjs && electron-builder --win --dir",
+    "windows:build": "npm run build && node scripts/build-screensaver.cjs && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "electron": "^40.0.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.0"
+  }
+}

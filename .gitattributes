@@ -1,0 +1,23 @@
+# Keep text consistent across Windows and other development environments.
+* text=auto eol=lf
+
+# Windows command scripts require native line endings.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets must not undergo text or line-ending conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.scr binary
