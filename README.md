@@ -4,6 +4,15 @@ A desktop flip clock with a browser preview and a Windows screensaver companion.
 
 ![Still desktop app showing its Ember-accented flip clock at 10:08:32 AM](docs/screenshots/desktop.png)
 
+## 📥 Download
+
+Ready to use Still on your Windows PC? Download the latest installer directly:
+
+👉 **[Download Still Flip Clock Setup (.exe)](https://github.com/sriharshitha-konkathi/flip-clock/releases/download/v1.0.0/Still-1.0.0-setup.exe)**  
+📦 **[View All Releases on GitHub](https://github.com/sriharshitha-konkathi/flip-clock/releases)**
+
+---
+
 ## Features
 
 - Local time with 12/24-hour display, optional seconds, and an optional date.
@@ -163,4 +172,4 @@ This folder is prepared for Git, but repository initialization, commits, remotes
 
 ## License
 
-No project license has been selected or added. The owner should choose one before a public release or granting reuse rights. Dependencies retain their respective licenses; see `package-lock.json` and the relevant packages for details.
+This project is licensed under the [MIT License](LICENSE) — free for everyone to use, modify, and distribute.
